@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Template</title>
+
+  <!-- Meta -->
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Alternative to above: Disables zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Stylesheets -->
+  <link href="normalize.css" rel="stylesheet" />
+  <link href="nitrogen.css" rel="stylesheet" />
+
+  <!--[if lt IE 9]>
+    <script src="http://cdnjs.buttflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+    <script src="http://cdnjs.buttflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+
+  <style>
+    body 
+    { 
+      background: #333; 
+      color: #DDD; 
+      font-family: sans-serif;
+
+      margin-bottom: 48px; 
+      margin-top: 48px; 
+    }
+  </style>
+
+  <!-- Javascript -->
+
+</head>
+<body>
+  <div class="container">
+    <div id="index" class="panel panel-default">
+      <div class="panel-header"><h1>Index</h1></div>
+      <div class="panel-body">
+        <ul>
+          <li><a href="#grid">Grid</a></li>
+          <li><a href="#panels">Panels</a></li>
+          <li><a href="#messages">Messages</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="#tables">Tables</a></li>
+          <li><a href="#forms">Forms</a></li>
+        </ul>
+      </div>
+      <div class="panel-footer">
+        <a href="https://kuler.adobe.com/create/color-wheel/?base=2&rule=Custom&selected=0&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.19607843137254902,0.7843137254901961,0.7843137254901961,0.09803921568627451,0.19607843137254902,0.7843137254901961,0.7843137254901961,0.19607843137254902,0.09803921568627451,0.09803921568627451,0.7843137254901961,0.19607843137254902,0.7843137254901961,0.7843137254901961,0.19607843137254902&swatchOrder=0,1,2,3,4">Color scheme used</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div id="grid" class="container">
+
+    <h2>Grid</h2>
+
+    <div class="row">
+      <div class="col-f-1 col-xs-1 col-s-1 col-m-1 col-l-1">1</div>
+      <div class="col-f-11 col-xs-11 col-s-11 col-m-11 col-l-11">11</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-2 col-xs-2 col-s-2 col-m-2 col-l-2">2</div>
+      <div class="col-f-10 col-xs-10 col-s-10 col-m-10 col-l-10">10</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-3 col-xs-3 col-s-3 col-m-3 col-l-3">3</div>
+      <div class="col-f-9 col-xs-9 col-s-9 col-m-9 col-l-9">9</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-4 col-xs-4 col-s-4 col-m-4 col-l-4">4</div>
+      <div class="col-f-8 col-xs-8 col-s-8 col-m-8 col-l-8">8</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-5 col-xs-5 col-s-5 col-m-5 col-l-5">5</div>
+      <div class="col-f-7 col-xs-7 col-s-7 col-m-7 col-l-7">7</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-6 col-xs-6 col-s-6 col-m-6 col-l-6">6</div>
+      <div class="col-f-6 col-xs-6 col-s-6 col-m-6 col-l-6">6</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-12 col-xs-12 col-s-12 col-m-12 col-l-12">12</div>
+    </div>
+
+    <div class="row">
+      <div class="col-f-6 col-xs-6 col-s-6 col-m-6 col-l-6">
+        <div class="row">
+          <div class="col-f-6 col-xs-6 col-s-6 col-m-6 col-l-6">3</div>
+          <div class="col-f-6 col-xs-6 col-s-6 col-m-6 col-l-6">3</div>
+        </div>
+      </div>
+      <div class="col-f-6 col-xs-6 col-s-6 col-m-6 col-l-6">6</div>
+    </div>
+
+  </div>
+  <!-- /Grid -->
+
+  <!-- Messages -->
+  <div id="messages" class="container">
+
+    <h2>Messages</h2>
+
+    <div class="msg">
+      Default Message
+    </div>
+
+    <div class="msg msg-green">
+      OK message
+    </div>
+
+    <div class="msg msg-blue">
+      Info message
+    </div>
+
+    <div class="msg msg-yellow">
+      Warning message
+    </div>
+
+    <div class="msg msg-red">
+      Error message
+    </div>
+
+  </div>
+  <!-- /Messages -->
+
+  <!-- Panels -->
+  <div id="panels" class="container">
+
+    <h2>Panels</h2>
+
+      <div class="panel">
+        <div class="panel-header">Title default</div>
+        <div class="panel-body">Body</div>
+      </div>
+
+      <div class="panel panel-green">
+        <div class="panel-header">Title OK</div>
+        <div class="panel-body">Body</div>
+      </div>
+
+      <div class="panel panel-blue">
+        <div class="panel-header">Title info</div>
+        <div class="panel-body">Body</div>
+      </div>
+
+      <div class="panel panel-yellow">
+        <div class="panel-header">Title warning</div>
+        <div class="panel-body">Body</div>
+      </div>
+
+      <div class="panel panel-red">
+        <div class="panel-header">Title error</div>
+        <div class="panel-body">Body</div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">Title</div>
+        <div class="panel-body">Body</div>
+        <div class="panel-footer">Footer</div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- /Panels -->
+
+
+    <!-- Buttons -->
+  <div id="buttons" class="container">
+
+    <h2>Buttons</h2>
+
+    <div class="panel panel-default">
+      <div class="panel-header">Small</div>
+      <div class="panel-body">
+        <a href="javascript:void(0)" class="btn btn-s">Default</a>
+        <a href="javascript:void(0)" class="btn btn-s btn-green">OK</a>
+        <a href="javascript:void(0)" class="btn btn-s btn-blue">Info</a>
+        <a href="javascript:void(0)" class="btn btn-s btn-yellow">Warning</a>
+        <a href="javascript:void(0)" class="btn btn-s btn-red">Error</a>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-header">Medium (default)</div>
+      <div class="panel-body">
+        <a href="javascript:void(0)" class="btn btn-m">Default</a>
+        <a href="javascript:void(0)" class="btn btn-m btn-green">OK</a>
+        <a href="javascript:void(0)" class="btn btn-m btn-blue">Info</a>
+        <a href="javascript:void(0)" class="btn btn-m btn-yellow">Warning</a>
+        <a href="javascript:void(0)" class="btn btn-m btn-red">Error</a>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-header">Large</div>
+      <div class="panel-body">
+        <a href="javascript:void(0)" class="btn btn-l">Default</a>
+        <a href="javascript:void(0)" class="btn btn-l btn-green">OK</a>
+        <a href="javascript:void(0)" class="btn btn-l btn-blue">Info</a>
+        <a href="javascript:void(0)" class="btn btn-l btn-yellow">Warning</a>
+        <a href="javascript:void(0)" class="btn btn-l btn-red">Error</a>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-header">Button group</div>
+      <div class="panel-body">
+        <div class="btn-grp">
+          <a href="javascript:void(0)" class="btn btn-m">Default</a>
+          <a href="javascript:void(0)" class="btn btn-m btn-green">OK</a>
+          <a href="javascript:void(0)" class="btn btn-m btn-blue">Info</a>
+          <a href="javascript:void(0)" class="btn btn-m btn-yellow">Warning</a>
+          <a href="javascript:void(0)" class="btn btn-m btn-red">Error</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- /Buttons -->
+
+  <!-- Tables -->
+  <div id="tables" class="container">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>Text</th>
+          <th>Integer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>#1</td>
+          <td>One</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>#2</td>
+          <td>Two</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>#3</td>
+          <td>Three</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>#4</td>
+          <td>Four</td>
+          <td>4</td>
+        </tr>
+        <tr class="green">
+          <td>#5</td>
+          <td>Five</td>
+          <td>5</td>
+        </tr>
+        <tr class="blue">
+          <td>#6</td>
+          <td>Six</td>
+          <td>6</td>
+        </tr>
+        <tr class="yellow">
+          <td>#7</td>
+          <td>Seven</td>
+          <td>7</td>
+        </tr>
+        <tr class="red">
+          <td>#8</td>
+          <td>Eight</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+  <!-- /Tables -->
+
+  <!-- Forms -->
+  <div id="forms" class="container">
+
+    <div class="panel panel-default">
+      <div class="panel-header">Forms</div>
+      <div class="panel-body">
+        N/A
+      </div>
+    </div>
+
+  </div>
+  <!-- /Forms -->
+
+  <!-- Extras -->
+  <div id="extras" class="container">
+
+    <div class="panel panel-default">
+      <div class="panel-header">Extras</div>
+      <div class="panel-body">
+        Show/Hide classes per size<br>
+        visible-s visible-m visible-l visible-print<br>
+        hidden-s hidden-m hidden-l hidden-print<br>
+      </div>
+    </div>
+
+  </div>
+  <!-- /Extras -->
+
+</body>
+</html>
