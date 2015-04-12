@@ -673,6 +673,12 @@ td.visible       { display: table-cell !important; }
   border-radius: 0.2em;
 }
 
+.panel .panel-footer
+{
+  font-size: 0.9em;
+  line-height: 1em;
+}
+
 /*
  * Tables
  *
@@ -714,7 +720,10 @@ td.visible       { display: table-cell !important; }
 {
 }
 
-.ipt.ipt-field
+/* Text fields */
+
+.ipt.ipt-field,
+.ipt.ipt-select
 {
   background-color: #FAFAFA;
   border: 1px solid #E1E1E1;
@@ -735,9 +744,8 @@ td.visible       { display: table-cell !important; }
 .ipt.ipt-field::-ms-input-placeholder { color: #666; }
 .ipt.ipt-field::-webkit-input-placeholder { color: #666; }
 
-/*
-.ipt.ipt-check { display: none; }
-*/
+/* Checkboxes and radio buttons */
+
 .ipt.ipt-check:before,
 .ipt.ipt-radio:before
 {
@@ -751,7 +759,7 @@ td.visible       { display: table-cell !important; }
   height: 13px;
   width: 13px;
 
-  transition-property: color,background-color, border-width;
+  transition-property: background-color, border-width;
   transition-timing-function: linear;
   transition-duration: 0.1s;
 }
@@ -768,7 +776,10 @@ td.visible       { display: table-cell !important; }
   border-radius: 1em;
 }
 
-/* Theming */
+/*
+ * Theming
+ *
+ */
 
 .btn,
 .msg,
